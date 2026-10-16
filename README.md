@@ -56,7 +56,7 @@ Modeled stochastic trend and seasonality on the double-differenced series $\nabl
 * **Order Selection:** Grid search via `auto.arima()` confirmed **$\text{SARIMA}(1,1,1)(0,1,1)_{12}$** as optimal ($\text{AICc} = -1420.36, \text{BIC} = -1402.93$).
 
 <p align="center">
-  <img src="Time Series - Pictures/ARIMA(1,1,1)(0,1,1)[12].png" width="85%" alt="SARIMA Model Residuals">
+  <img src="Time Series - Pictures/SARIMA(1,1,1)(0,1,1)[12].png" width="85%" alt="SARIMA Model Residuals">
 </p>
 
 ---
